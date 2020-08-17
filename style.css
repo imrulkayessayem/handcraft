@@ -1,0 +1,113 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar img {
+  width: 350px;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#navbar ul li {
+  padding: 0 3rem;
+}
+
+#main {
+  max-width: 1100px;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  margin: auto;
+}
+
+#main .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#main .header .email {
+  width: 250px;
+  padding: .56rem;
+  margin-top: 1.7rem;
+}
+
+#main .header .submit {
+  padding: .50rem 2.5rem;
+  background: #f1c40f;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+#main .header .submit:hover {
+  background: #b69100;
+}
+
+#section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+#section-1 .features {
+  margin-top: 2rem;
+  width: 40%;
+}
+
+#section-1 .features i {
+  color: #f1c40f;
+  display: flex;
+  flex-direction: row;
+}
+
+.youtube-video {
+  margin-top: 4rem;
+}
+
+#box {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#box .box {
+  margin: 2rem;
+  border: 2px solid #000;
+  padding: 3rem;
+}
